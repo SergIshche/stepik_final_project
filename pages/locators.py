@@ -23,5 +23,5 @@ class ProductPageLocators():
     TOTAL_PRICE_MESSAGE = (By.CSS_SELECTOR, "#messages > .alert-info > .alertinner > p > strong")
 
 class BasketPageLocators():
-        BASKET_CONTENT = (By.CSS_SELECTOR, "#content_inner > p")
-        BASKET_ITEM = (By.CSS_SELECTOR, ".basket-items")
+    BASKET_CONTENT = (By.CSS_SELECTOR, "#content_inner > p")
+    BASKET_ITEM = (By.CSS_SELECTOR, ".basket-items")
